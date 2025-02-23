@@ -1,5 +1,5 @@
 // Подключение к WebSocket серверу
-const ws = new WebSocket("wss://websocketsserver.onrender.com");
+const ws = new WebSocket("https://websocketsserver-qyj7.onrender.com");
 
 // Событие открытия соединения
 ws.onopen = () => {
